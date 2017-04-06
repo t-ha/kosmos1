@@ -1,0 +1,542 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA4ECB391E96BA540079E8A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA4ECB381E96BA540079E8A5 /* Assets.xcassets */; };
+		AA6E223A1E8EC02100B0B84E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6E22391E8EC02100B0B84E /* AppDelegate.swift */; };
+		AA6E223F1E8EC02100B0B84E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA6E223D1E8EC02100B0B84E /* Main.storyboard */; };
+		AA6E22441E8EC02100B0B84E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA6E22421E8EC02100B0B84E /* LaunchScreen.storyboard */; };
+		AA6E224F1E8EC02100B0B84E /* kosmosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6E224E1E8EC02100B0B84E /* kosmosTests.swift */; };
+		AA6E225A1E8EC02200B0B84E /* kosmosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6E22591E8EC02200B0B84E /* kosmosUITests.swift */; };
+		AA6E226A1E8EC94B00B0B84E /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6E22691E8EC94B00B0B84E /* HomeViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AA6E224B1E8EC02100B0B84E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA6E222E1E8EC02100B0B84E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA6E22351E8EC02100B0B84E;
+			remoteInfo = kosmos;
+		};
+		AA6E22561E8EC02100B0B84E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA6E222E1E8EC02100B0B84E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA6E22351E8EC02100B0B84E;
+			remoteInfo = kosmos;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AA4ECB381E96BA540079E8A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA6E22361E8EC02100B0B84E /* kosmos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kosmos.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA6E22391E8EC02100B0B84E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AA6E223E1E8EC02100B0B84E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AA6E22431E8EC02100B0B84E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AA6E22451E8EC02100B0B84E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA6E224A1E8EC02100B0B84E /* kosmosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kosmosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA6E224E1E8EC02100B0B84E /* kosmosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kosmosTests.swift; sourceTree = "<group>"; };
+		AA6E22501E8EC02100B0B84E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA6E22551E8EC02100B0B84E /* kosmosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kosmosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA6E22591E8EC02200B0B84E /* kosmosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kosmosUITests.swift; sourceTree = "<group>"; };
+		AA6E225B1E8EC02200B0B84E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA6E22691E8EC94B00B0B84E /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA6E22331E8EC02100B0B84E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA6E22471E8EC02100B0B84E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA6E22521E8EC02100B0B84E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA6E222D1E8EC02100B0B84E = {
+			isa = PBXGroup;
+			children = (
+				AA6E22381E8EC02100B0B84E /* kosmos */,
+				AA6E224D1E8EC02100B0B84E /* kosmosTests */,
+				AA6E22581E8EC02100B0B84E /* kosmosUITests */,
+				AA6E22371E8EC02100B0B84E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA6E22371E8EC02100B0B84E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA6E22361E8EC02100B0B84E /* kosmos.app */,
+				AA6E224A1E8EC02100B0B84E /* kosmosTests.xctest */,
+				AA6E22551E8EC02100B0B84E /* kosmosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA6E22381E8EC02100B0B84E /* kosmos */ = {
+			isa = PBXGroup;
+			children = (
+				AA6E22391E8EC02100B0B84E /* AppDelegate.swift */,
+				AA6E223D1E8EC02100B0B84E /* Main.storyboard */,
+				AA6E22691E8EC94B00B0B84E /* HomeViewController.swift */,
+				AA6E22421E8EC02100B0B84E /* LaunchScreen.storyboard */,
+				AA6E22451E8EC02100B0B84E /* Info.plist */,
+				AA4ECB381E96BA540079E8A5 /* Assets.xcassets */,
+			);
+			path = kosmos;
+			sourceTree = "<group>";
+		};
+		AA6E224D1E8EC02100B0B84E /* kosmosTests */ = {
+			isa = PBXGroup;
+			children = (
+				AA6E224E1E8EC02100B0B84E /* kosmosTests.swift */,
+				AA6E22501E8EC02100B0B84E /* Info.plist */,
+			);
+			path = kosmosTests;
+			sourceTree = "<group>";
+		};
+		AA6E22581E8EC02100B0B84E /* kosmosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AA6E22591E8EC02200B0B84E /* kosmosUITests.swift */,
+				AA6E225B1E8EC02200B0B84E /* Info.plist */,
+			);
+			path = kosmosUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA6E22351E8EC02100B0B84E /* kosmos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA6E225E1E8EC02200B0B84E /* Build configuration list for PBXNativeTarget "kosmos" */;
+			buildPhases = (
+				AA6E22321E8EC02100B0B84E /* Sources */,
+				AA6E22331E8EC02100B0B84E /* Frameworks */,
+				AA6E22341E8EC02100B0B84E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = kosmos;
+			productName = kosmos;
+			productReference = AA6E22361E8EC02100B0B84E /* kosmos.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AA6E22491E8EC02100B0B84E /* kosmosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA6E22611E8EC02200B0B84E /* Build configuration list for PBXNativeTarget "kosmosTests" */;
+			buildPhases = (
+				AA6E22461E8EC02100B0B84E /* Sources */,
+				AA6E22471E8EC02100B0B84E /* Frameworks */,
+				AA6E22481E8EC02100B0B84E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA6E224C1E8EC02100B0B84E /* PBXTargetDependency */,
+			);
+			name = kosmosTests;
+			productName = kosmosTests;
+			productReference = AA6E224A1E8EC02100B0B84E /* kosmosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AA6E22541E8EC02100B0B84E /* kosmosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA6E22641E8EC02200B0B84E /* Build configuration list for PBXNativeTarget "kosmosUITests" */;
+			buildPhases = (
+				AA6E22511E8EC02100B0B84E /* Sources */,
+				AA6E22521E8EC02100B0B84E /* Frameworks */,
+				AA6E22531E8EC02100B0B84E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA6E22571E8EC02100B0B84E /* PBXTargetDependency */,
+			);
+			name = kosmosUITests;
+			productName = kosmosUITests;
+			productReference = AA6E22551E8EC02100B0B84E /* kosmosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA6E222E1E8EC02100B0B84E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "University of Washington";
+				TargetAttributes = {
+					AA6E22351E8EC02100B0B84E = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 226PM9LLY5;
+						ProvisioningStyle = Automatic;
+					};
+					AA6E22491E8EC02100B0B84E = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 226PM9LLY5;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AA6E22351E8EC02100B0B84E;
+					};
+					AA6E22541E8EC02100B0B84E = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 226PM9LLY5;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AA6E22351E8EC02100B0B84E;
+					};
+				};
+			};
+			buildConfigurationList = AA6E22311E8EC02100B0B84E /* Build configuration list for PBXProject "kosmos" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA6E222D1E8EC02100B0B84E;
+			productRefGroup = AA6E22371E8EC02100B0B84E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA6E22351E8EC02100B0B84E /* kosmos */,
+				AA6E22491E8EC02100B0B84E /* kosmosTests */,
+				AA6E22541E8EC02100B0B84E /* kosmosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA6E22341E8EC02100B0B84E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA6E22441E8EC02100B0B84E /* LaunchScreen.storyboard in Resources */,
+				AA4ECB391E96BA540079E8A5 /* Assets.xcassets in Resources */,
+				AA6E223F1E8EC02100B0B84E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA6E22481E8EC02100B0B84E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA6E22531E8EC02100B0B84E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA6E22321E8EC02100B0B84E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA6E223A1E8EC02100B0B84E /* AppDelegate.swift in Sources */,
+				AA6E226A1E8EC94B00B0B84E /* HomeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA6E22461E8EC02100B0B84E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA6E224F1E8EC02100B0B84E /* kosmosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA6E22511E8EC02100B0B84E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA6E225A1E8EC02200B0B84E /* kosmosUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AA6E224C1E8EC02100B0B84E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA6E22351E8EC02100B0B84E /* kosmos */;
+			targetProxy = AA6E224B1E8EC02100B0B84E /* PBXContainerItemProxy */;
+		};
+		AA6E22571E8EC02100B0B84E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA6E22351E8EC02100B0B84E /* kosmos */;
+			targetProxy = AA6E22561E8EC02100B0B84E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AA6E223D1E8EC02100B0B84E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA6E223E1E8EC02100B0B84E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AA6E22421E8EC02100B0B84E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA6E22431E8EC02100B0B84E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA6E225C1E8EC02200B0B84E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AA6E225D1E8EC02200B0B84E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA6E225F1E8EC02200B0B84E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 226PM9LLY5;
+				INFOPLIST_FILE = kosmos/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.timha.kosmos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		AA6E22601E8EC02200B0B84E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 226PM9LLY5;
+				INFOPLIST_FILE = kosmos/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.timha.kosmos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		AA6E22621E8EC02200B0B84E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 226PM9LLY5;
+				INFOPLIST_FILE = kosmosTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.timha.kosmosTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kosmos.app/kosmos";
+			};
+			name = Debug;
+		};
+		AA6E22631E8EC02200B0B84E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 226PM9LLY5;
+				INFOPLIST_FILE = kosmosTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.timha.kosmosTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kosmos.app/kosmos";
+			};
+			name = Release;
+		};
+		AA6E22651E8EC02200B0B84E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 226PM9LLY5;
+				INFOPLIST_FILE = kosmosUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.timha.kosmosUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = kosmos;
+			};
+			name = Debug;
+		};
+		AA6E22661E8EC02200B0B84E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 226PM9LLY5;
+				INFOPLIST_FILE = kosmosUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.timha.kosmosUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = kosmos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA6E22311E8EC02100B0B84E /* Build configuration list for PBXProject "kosmos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA6E225C1E8EC02200B0B84E /* Debug */,
+				AA6E225D1E8EC02200B0B84E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA6E225E1E8EC02200B0B84E /* Build configuration list for PBXNativeTarget "kosmos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA6E225F1E8EC02200B0B84E /* Debug */,
+				AA6E22601E8EC02200B0B84E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA6E22611E8EC02200B0B84E /* Build configuration list for PBXNativeTarget "kosmosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA6E22621E8EC02200B0B84E /* Debug */,
+				AA6E22631E8EC02200B0B84E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA6E22641E8EC02200B0B84E /* Build configuration list for PBXNativeTarget "kosmosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA6E22651E8EC02200B0B84E /* Debug */,
+				AA6E22661E8EC02200B0B84E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA6E222E1E8EC02100B0B84E /* Project object */;
+}
