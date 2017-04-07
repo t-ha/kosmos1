@@ -8,7 +8,7 @@
 
 import UIKit
 
-class HomeViewController: UIViewController {
+class HomeViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
     @IBOutlet weak var exitButton: UIButton!
     @IBOutlet weak var addPressView: UIView!
@@ -20,46 +20,75 @@ class HomeViewController: UIViewController {
     @IBOutlet weak var addMakeup: UIButton!
     @IBOutlet weak var addHair: UIButton!
     
+    @IBOutlet weak var productTableView: UITableView!
+    
+    let products = [CosmeticItem(name: "Naked Flushed", brand: "Urban Decay"), CosmeticItem(name: "Lash Mascara", brand:"Buxom")]
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        exitButton.isHidden = true;
-        addPressView.isHidden = true;
-        addSkin.isHidden = true;
-        addMakeup.isHidden = true;
-        addHair.isHidden = true;
+        exitButton.isHidden = true
+        addPressView.isHidden = true
+        addSkin.isHidden = true
+        addMakeup.isHidden = true
+        addHair.isHidden = true
         
-        let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(HomeViewController.dismissKeyboard));
+//        let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(HomeViewController.dismissKeyboard))
         
-        view.addGestureRecognizer(tap);
-        // Do any additional setup after loading the view.
+//        view.addGestureRecognizer(tap);
+        
+        productTableView.delegate = self
+        productTableView.dataSource = self
+        
+        
     }
     @IBAction func pressAdd(_ sender: Any) {
-//        addPressView.isHidden = false;
-//        exitButton.isHidden = false;
-//        addButton.isHidden = true;
-        changeHiddenState(hide: false);
-        self.view.bringSubview(toFront: buttonView);
+        changeHiddenState(hide: false)
+        self.view.bringSubview(toFront: buttonView)
     }
 
     @IBAction func pressExit(_ sender: Any) {
-        changeHiddenState(hide: true);
-//        exitButton.isHidden = true;
-//        addPressView.isHidden = true;
-//        addButton.isHidden = false;
+        changeHiddenState(hide: true)
     }
     
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return products.count
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "tableCell", for: indexPath as IndexPath)
+        cell.textLabel?.text = products[indexPath.item].name
+        cell.detailTextLabel?.text = products[indexPath.item].brand
+        return cell
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        tableView.deselectRow(at: indexPath, animated: true)
+        performSegue(withIdentifier: "cellSegue", sender: self)
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "cellSegue" {
+        }
+    }
+    
+    
     func dismissKeyboard() {
-        view.endEditing(true);
+        view.endEditing(true)
     }
     
     func changeHiddenState(hide: Bool) {
-        exitButton.isHidden = hide;
-        addButton.isHidden = !hide;
-        addPressView.isHidden = hide;
-        addSkin.isHidden = hide;
-        addMakeup.isHidden = hide;
-        addHair.isHidden = hide;
+        exitButton.isHidden = hide
+        addButton.isHidden = !hide
+        addPressView.isHidden = hide
+        addSkin.isHidden = hide
+        addMakeup.isHidden = hide
+        addHair.isHidden = hide
+    }
+    
+    struct CosmeticItem {
+        var name: String
+        var brand: String
+        
     }
     
     override func didReceiveMemoryWarning() {

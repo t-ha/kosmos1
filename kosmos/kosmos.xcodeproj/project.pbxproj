@@ -14,6 +14,7 @@
 		AA6E224F1E8EC02100B0B84E /* kosmosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6E224E1E8EC02100B0B84E /* kosmosTests.swift */; };
 		AA6E225A1E8EC02200B0B84E /* kosmosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6E22591E8EC02200B0B84E /* kosmosUITests.swift */; };
 		AA6E226A1E8EC94B00B0B84E /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6E22691E8EC94B00B0B84E /* HomeViewController.swift */; };
+		AAF350AF1E972B5F00AA4504 /* ProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF350AE1E972B5F00AA4504 /* ProductViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		AA6E22591E8EC02200B0B84E /* kosmosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kosmosUITests.swift; sourceTree = "<group>"; };
 		AA6E225B1E8EC02200B0B84E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AA6E22691E8EC94B00B0B84E /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		AAF350AE1E972B5F00AA4504 /* ProductViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				AA6E22391E8EC02100B0B84E /* AppDelegate.swift */,
 				AA6E223D1E8EC02100B0B84E /* Main.storyboard */,
 				AA6E22691E8EC94B00B0B84E /* HomeViewController.swift */,
+				AAF350AE1E972B5F00AA4504 /* ProductViewController.swift */,
 				AA6E22421E8EC02100B0B84E /* LaunchScreen.storyboard */,
 				AA6E22451E8EC02100B0B84E /* Info.plist */,
 				AA4ECB381E96BA540079E8A5 /* Assets.xcassets */,
@@ -262,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAF350AF1E972B5F00AA4504 /* ProductViewController.swift in Sources */,
 				AA6E223A1E8EC02100B0B84E /* AppDelegate.swift in Sources */,
 				AA6E226A1E8EC94B00B0B84E /* HomeViewController.swift in Sources */,
 			);
